@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> </title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<style>
+	.image{
+		width: 60px;
+		height: 60px;
+	}
+	.head{
+		font-size: 30px;
+		font-family: serif;
+		font-weight: bolder;
+	}
+	.searchbox{
+		margin-left: 550px;
+		width: 300px;
+	}
+	.search{
+		width: 30px;
+		height: 30px;
+	}
+	.navbar{
+		background-color: #6b778d;
+		margin-top: 20px;
+		width: 1500px;
+	}
+	.divimg{
+		width: 1500px;
+		height: 450px;
+	}
+	.divimg1{
+		width: 1500px;
+		height: 450px;
+	}
+	.divimg2{
+		width: 1500px;
+		height: 450px;
+	}
+	.divimg3{
+		width: 1500px;
+		height: 450px;
+	}
+	.selector{
+		color: black;
+		font-size: 40px;
+	}
+	.carousel-caption{
+		padding-top: 30px;
+	}
+	.myheader{
+		font-size: 40px;
+		font-family: sans-serif;
+		margin-left: 300px;
+		color: #348498;
+	}
+	.text-muted{
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.card-footer{
+		padding-left: 100px;
+	}
+	.card-img{
+		height: 300px;
+	}
+	.header2{
+		font-size: 15px;
+		font-style: italic;
+		color: #fdd043;
+		margin-left: 300px;
+	}
+	.container{
+		background-color: #95adbe;
+		width: 2000px;
+	}
+	.svg1{
+		width: 35px;
+		height: 35px;
+	}
+	.col-sm{
+		width: 1000px;
+	}
+	.txt{
+		font-weight: bold;
+		font-size: 40px;
+		color: #2d248a;
+		margin-left: 300px;
+	}
+	.svg2{
+		size: 10px;
+	}
+	.card-img1{
+		height: 220px;
+	}
+	.btn{
+		margin-left: 500px;
+	}
+
+</style>
+
+</head>
+<body>
+	<div class="header">
+		<img class="image" src="travellogo2.png">
+		<span class="head">HotelGuideMyanmar</span>
+		<input class="searchbox" type="text" placeholder="Search city,hotel,name,etc....">
+		<svg class="search">
+			<path d="M31.008 27.231l-7.58-6.447c-0.784-0.705-1.622-1.029-2.299-0.998 1.789-2.096 2.87-4.815 2.87-7.787 0-6.627-5.373-12-12-12s-12 5.373-12 12 5.373 12 12 12c2.972 0 5.691-1.081 7.787-2.87-0.031 0.677 0.293 1.515 0.998 2.299l6.447 7.58c1.104 1.226 2.907 1.33 4.007 0.23s0.997-2.903-0.23-4.007zM12 20c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"></path>
+		</svg>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="Hotel.html">Hotels</a>
+      <a class="nav-item nav-link" href="About.html">About us</a>
+      <a class="nav-item nav-link" href="Besthotel.html">Best of 2019</a>
+      <a class="nav-item nav-link" href="place.html">Places</a>
+      <a class="nav-item nav-link" href="package.html">Package</a>
+</div>
+  </div>
+</nav>
+
+<div class="bd-example">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="divimg" src="bagan.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="selector">Plan the perfect trip</h5>
+          <h2 class="header2">Start your trip here......</h2>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="divimg1" src="mandalay.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="selector">Plan the perfect trip</h5>
+          <h2 class="header2">Start your trip here......</h2>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="divimg2" src="Shwedagon.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="selector">Plan the perfect trip</h5>
+          <h2 class="header2">Start your trip here......</h2>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="divimg3" src="beach.jpg">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 class="selector">Plan the perfect trip</h5>
+          <h2 class="header2">Start your trip here......</h2>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<div></div>
+<br>
+<br>
+<div><span><h5 class="myheader">Welcome to HotelGuideMyanmar</h5></span></div>
+<div></div>
+<br>
+<br>
+<br>
+
+<section>
+<div class="card-group">
+  <div class="card">
+    <img src="baganviewhotel.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Bagan View Hotel</h5>
+      <p class="card-text">Sky view hotel BaganBagan View is located in Bagan, 1.2 miles from Manuha Temple and 1.7 miles from Gubyaukgyi Temple. Guests can enjoy the on-site restaurant.All rooms are fitted with a flat-screen TV.You will find a 24-hour front desk at the property.The hotel also provides bike rental. Dhammayazika Pagoda is 1.7 miles from Bagan View, and Mingalar Zedi Pagoda is 1.9 miles from the property. Nyaung-u Airport is 6 miles away.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">$ 100</small>
+      <br>
+      <button type="button" class="btn1 btn-success">View Details</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="kalawhotel.jpg" class="card-img" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Dream Villa Resort</h5>
+      <p class="card-text">Located in the canter of town and 5 minutes walk to market, bus station, post office and restaurants. You will be most welcome by very friendly staff and hotel owner. All information is available for your trekking to tribal villages.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">$80</small>
+      <br>
+      <button type="button" class="btn1 btn-success">View Details</button>
+    </div>
+  </div>
+  <div class="card">
+    <img src="ngapalihotel.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Aureum Palace Hotel and Resort Ngapali</h5>
+      <p class="card-text">The magnificent white stretches of sand beaches of the Bay of Bengal provides a secluded and romantic setting for the elegant and beautifully appointed Aureum Resort and Spa – Ngapali on Myanmar’s Indian Ocean features dramatic western facing sunsets upon these natural shores.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">$50</small>
+      <br>
+      <button type="button" class="btn1 btn-success">View Details</button>
+    </div>
+  </div>
+</div>
+</section>
+<div></div>
+<br>
+<br>
+<button type="button" class="btn btn-success">View More</button>
+<br>
+<br>
+<br>
+<br>
+<span class="txt">The best Hotels Listing in Myanmar.</span>
+<br>
+<br>
+    <div class="container1">
+  <div class="row">
+    <div class="col-sm">
+      <div class="card" style="width: 18rem;">
+  <img src="meliahotel.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Melia Hotel Yangon.<br>
+    	192.Kabar Aye Pagoda Road,Bahan Township<br>
+    	Yangon,Myanamar.<br>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    </p>
+  </div>
+</div>
+    </div>
+    <div class="col-sm">
+      <div class="card" style="width: 18rem;">
+  <img src="panpacific.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Pan Pacific Hotel.<br>
+    	Coner of Bogyoke Aung San Road and Shwedagon Pagoda Road<br>
+    	Pabedan Township,Yangon<br>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    </p>
+  </div>
+</div>
+    </div>
+    <div class="col-sm">
+      <div class="card" style="width: 18rem;">
+  <img src="InlePrincessResort.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Inle Princess Resort.<br>
+    	Magyizin village, Inle Lake, Shan state, Myanmar.<br>
+        <i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+</p>
+  </div>
+</div>
+    </div>
+    <div class="col-sm">
+      <div class="card" style="width: 18rem;">
+  <img src="redcanelhotel.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Hotel by the Red Canel Mandalay.<br>
+    	No.417, corner of 63 rd and 22nd Road Mandalay Aung Myae Tha Zan Township
+.<br>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star-half-alt"></i>
+</p>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+<br>
+<div class="container2">
+  <div class="row">
+    <div class="col-sm">
+      <div class="card" style="width: 18rem;">
+  <img src="ngapalibayjpg.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Ngapali Bay Villa and Spa.<br>
+    	Myapyin Village,Ngapali Thandwe District.<br>
+    	Rakhine State,Myanmar.<br>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    </p>
+  </div>
+</div>
+    </div>
+    <div class="col-sm">
+      <div class="card" style="width: 18rem;">
+  <img src="baganthande.jpg" class="card-img1" alt="...">
+  <div class="card-body">
+    <p class="card-text">Bagan Thande Hotel,Old Bagan.<br>
+    	Next to the venerable GAWDAW PALIN temple and beside the Bagan Archeological Museum<br>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	
+    </p>
+  </div>
+</div>
+</div>
+<div class="col-sm">
+      <div class="card" style="width: 18rem;">
+  <img src="lottehotel.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Lotte Hotel Yangon<br>
+    	No. 82, Sin Phyu Shin Avenue, Pyay Road, 6½ Mile, Ward 11, Hlaing Township.<br>
+    	Yangon, Myanmar<br>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    </p>
+  </div>
+</div>
+</div>
+<div class="col-sm">
+      <div class="card" style="width: 18rem;">
+  <img src="nayphitawhotel.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Grand Amara Hotel Nay Pyi Taw<br>
+    	No.(5,6), Jade Villa,DakkhinaThiriTownship<br>NayPyiTaw,Myanmar.<br>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star"></i>
+    	<i class="fas fa-star-half-alt"></i>
+    </p>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<br>
+<br>
+<button type="button" class="btn btn-success">View More</button>
+<br>
+<br>
+<br>
+<section>
+	<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      Contact Info
+      <hr>
+      <svg class="svg1">
+      <path d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM16 30c-1.967 0-3.84-0.407-5.538-1.139l7.286-8.197c0.163-0.183 0.253-0.419 0.253-0.664v-3c0-0.552-0.448-1-1-1-3.531 0-7.256-3.671-7.293-3.707-0.188-0.188-0.442-0.293-0.707-0.293h-4c-0.552 0-1 0.448-1 1v6c0 0.379 0.214 0.725 0.553 0.894l3.447 1.724v5.871c-3.627-2.53-6-6.732-6-11.489 0-2.147 0.484-4.181 1.348-6h3.652c0.265 0 0.52-0.105 0.707-0.293l4-4c0.188-0.188 0.293-0.442 0.293-0.707v-2.419c1.268-0.377 2.61-0.581 4-0.581 2.2 0 4.281 0.508 6.134 1.412-0.13 0.109-0.256 0.224-0.376 0.345-1.133 1.133-1.757 2.64-1.757 4.243s0.624 3.109 1.757 4.243c1.139 1.139 2.663 1.758 4.239 1.758 0.099 0 0.198-0.002 0.297-0.007 0.432 1.619 1.211 5.833-0.263 11.635-0.014 0.055-0.022 0.109-0.026 0.163-2.541 2.596-6.084 4.208-10.004 4.208z"></path></svg>
+      hotelguidemyanmar@gmail.com
+      <br>
+      <br>
+      <svg class="svg1">
+      <path d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM8 8h16c0.286 0 0.563 0.061 0.817 0.177l-8.817 10.286-8.817-10.287c0.254-0.116 0.531-0.177 0.817-0.177zM6 22v-12c0-0.042 0.002-0.084 0.004-0.125l5.864 6.842-5.8 5.8c-0.045-0.167-0.069-0.34-0.069-0.517zM24 24h-16c-0.177 0-0.35-0.024-0.517-0.069l5.691-5.691 2.826 3.297 2.826-3.297 5.691 5.691c-0.167 0.045-0.34 0.069-0.517 0.069zM26 22c0 0.177-0.024 0.35-0.069 0.517l-5.8-5.8 5.865-6.842c0.003 0.041 0.004 0.083 0.004 0.125v12z"></path></svg>
+      www.hotelguidemyanmar.com
+      <br>
+      <br>
+      <svg class="svg1">
+      <path d="M27.281 4.65c-2.994-3-6.975-4.65-11.219-4.65-8.738 0-15.85 7.112-15.85 15.856 0 2.794 0.731 5.525 2.119 7.925l-2.25 8.219 8.406-2.206c2.319 1.262 4.925 1.931 7.575 1.931h0.006c0 0 0 0 0 0 8.738 0 15.856-7.113 15.856-15.856 0-4.238-1.65-8.219-4.644-11.219zM16.069 29.050v0c-2.369 0-4.688-0.637-6.713-1.837l-0.481-0.288-4.987 1.306 1.331-4.863-0.313-0.5c-1.325-2.094-2.019-4.519-2.019-7.012 0-7.269 5.912-13.181 13.188-13.181 3.519 0 6.831 1.375 9.319 3.862 2.488 2.494 3.856 5.8 3.856 9.325-0.006 7.275-5.919 13.188-13.181 13.188zM23.294 19.175c-0.394-0.2-2.344-1.156-2.706-1.288s-0.625-0.2-0.894 0.2c-0.262 0.394-1.025 1.288-1.256 1.556-0.231 0.262-0.462 0.3-0.856 0.1s-1.675-0.619-3.188-1.969c-1.175-1.050-1.975-2.35-2.206-2.744s-0.025-0.613 0.175-0.806c0.181-0.175 0.394-0.463 0.594-0.694s0.262-0.394 0.394-0.662c0.131-0.262 0.069-0.494-0.031-0.694s-0.894-2.15-1.219-2.944c-0.319-0.775-0.65-0.669-0.894-0.681-0.231-0.012-0.494-0.012-0.756-0.012s-0.694 0.1-1.056 0.494c-0.363 0.394-1.387 1.356-1.387 3.306s1.419 3.831 1.619 4.1c0.2 0.262 2.794 4.269 6.769 5.981 0.944 0.406 1.681 0.65 2.256 0.837 0.95 0.3 1.813 0.256 2.494 0.156 0.762-0.113 2.344-0.956 2.675-1.881s0.331-1.719 0.231-1.881c-0.094-0.175-0.356-0.275-0.756-0.475z"></path></svg>
+      09-259230127,09-777485393
+  </div>
+</div>
+</div>
+</section>
+
+</body>
+</html>
